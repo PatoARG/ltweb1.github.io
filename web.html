@@ -1,0 +1,66 @@
+﻿<body>
+<form>
+<image src="banner_school_paint_ps6.png" style="height:300;width:500;">
+<input type="button" value="Ciencia Def." onclick="a()">
+<input type="button" value="¿Qué es un sistema?" onclick="b()">
+<input type="button" value="¿Qué es un sistema informatico?" onclick="c()">
+<input type="button" value="¿Cual es la relación entre Ciencia y Tecnologia?" onclick="d()">
+<input type="button" value="¿Qué es software?" onclick="e()">
+<input type="button" value="¿Esta AppWeb es de quien?" onclick="cre()">
+<input type="search" id="Escrito">
+<input type="button" value="Buscar" onclick="buscar()">
+
+</form>
+</body>
+
+<script>
+//Que buscando por scripts para modificar? ADIVINA NO LO TOQUES PERRA
+//Funciones de los botones.
+function cre(){
+alert("Es de Patricio Nahuel Monsalvo Canosa -> APP CREADA EN 2017 1-D Esperemos disfrutes esta web y la uses para estudiar :)");
+}
+
+function buscar()
+{
+var textSearch = document.getElementById("Escrito").value;
+if(textSearch == "Ciencia Def."){
+a();
+}
+if(textSearch == "¿Qué es un sistema?"){
+b();
+}
+if(textSearch == "¿Qué es un sistema informatico?"){
+c();
+}
+if(textSearch == "¿Cual es la relación entre Ciencia y Tecnologia?"){
+d();
+}
+if(textSearch == "¿Que es software?"){
+e();
+}
+if(textSearch == "¿Esta AppWeb es de quien?"){
+cre();
+}
+else{
+alert("No se ha encontrado ese tema...");
+}
+}
+
+function a(){
+alert("La ciencia es la rama de el saber humano");
+alert("que esta constituida por conjuntos de conocimientos objetivos y verificados.");
+}
+function b(){
+alert("Un sistema es un conjunto de determinados objetos que estan conectados entre si y si uno falla el otro tambien lo hara.");
+}
+function c(){
+alert("Es un sistema hecho con HARDWARE y SOFTWARE que puede almacenar y procesar Informacion");
+}
+function d(){
+alert("La relacion es que gracias a la Tecnologia la Ciencia puede hacer posible avances o acelerar procesos de investigacion."); 
+}
+function e(){
+alert("El software son las partes contrarias al Hardware es decir es lo que no es fisico.");
+}
+//Lo de abajo son las formas de los botones en la pantalla.
+</script>
